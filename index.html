@@ -1,3 +1,13 @@
+<!--
+ATTRIBUTION
+
+All images used belong to:
+
+Markus Spiske - https://500px.com/markusspiske
+Yinan Chen - https://500px.com/webmaster85
+Fahim Akhter - https://500px.com/fahimakhter
+-->
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -8,7 +18,7 @@
        
     <meta name="viewport" content="width=device-width, initial-scale=1">
        
-    <title>Blank Template</title>
+    <title>Responsive Images</title>
     
     <link rel="stylesheet" href="CSS/main.css">
     
@@ -21,15 +31,108 @@
    
     <header>
        
-        <h1>Page Title</h1>
+        <h1>Responsive Images</h1>
       
     </header>
+<!--
+Large: 800px width x 600px height - to be used when the page width is greater than 1500px.
 
-    <main>
-        <h2>Main Content</h2>
+Medium: 600px width x 450px height - to be used when the page width is between 700px and 1500px  media="(max-width:1500px)"
 
-       
-    </main>
+Small: 400px width x 300px height - to be used when the page width is less than 700px media="(max-width:700px)"
+-->
+	<div class="wrapper">
+		<ul>
+			<li>
+			
+       <picture>
+          <source srcset="IMG/small/fahim-akhter-kund-malir-pakistan.jpg" media="(max-width:700px)">
+          <source srcset="IMG/medium/fahim-akhter-kund-malir-pakistan.jpg" media="(max-width:1500px)">
+          <source srcset="IMG/large/fahim-akhter-kund-malir-pakistan.jpg">
+           
+<!--       Default if picture tag not supported by your browser-->
+           <img alt="fahim-akhter-kund-malir-pakistan"
+           title="picture of pakistan"
+           src="IMG/medium/fahim-akhter-kund-malir-pakistan.jpg">
+       </picture>
+			</li>
+
+			<li>
+    <picture>
+          <source srcset="IMG/small/markus-spiske-carrots.jpg" media="(max-width:700px)">
+          <source srcset="IMG/medium/markus-spiske-carrots.jpg" media="(max-width:1500px)">
+          <source srcset="IMG/large/markus-spiske-carrots.jpg">
+           
+           <img alt="markus-spiske-carrots"
+           title="picture of carrots"
+           src="IMG/medium/markus-spiske-carrots.jpg">
+    </picture>
+			</li>
+			
+			<li>
+    <picture>
+          <source srcset="IMG/small/markus-spiske-concert-crowd.jpg" media="(max-width:700px)">
+          <source srcset="IMG/medium/markus-spiske-concert-crowd.jpg" media="(max-width:1500px)">
+          <source srcset="IMG/large/markus-spiske-concert-crowd.jpg">
+           
+           <img alt="markus-spiske-concert-crowd"
+           title="picture of a concert crowd"
+           src="IMG/medium/markus-spiske-concert-crowd.jpg">
+    </picture>
+			</li>
+			
+			<li>
+    <picture>
+          <source srcset="IMG/small/markus-spiske-guitar.jpg" media="(max-width:700px)">
+          <source srcset="IMG/medium/markus-spiske-guitar.jpg" media="(max-width:1500px)">
+          <source srcset="IMG/large/markus-spiske-guitar.jpg">
+           
+           <img alt="markus-spiske-guitar"
+           title="picture of a guitar"
+           src="IMG/medium/markus-spiske-guitar.jpg">
+    </picture>
+			</li>
+			
+			<li>
+    <picture>
+          <source srcset="IMG/small/markus-spiske-stage.jpg" media="(max-width:700px)">
+          <source srcset="IMG/medium/markus-spiske-stage.jpg" media="(max-width:1500px)">
+          <source srcset="IMG/large/markus-spiske-stage.jpg">
+           
+           <img alt="markus-spiske-stage"
+           title="picture of a concert stage"
+           src="IMG/medium/markus-spiske-stage.jpg">
+    </picture>
+			</li>
+			
+			<li>
+    <picture>
+          <source srcset="IMG/small/yiman-chen-castlerock-wisconsin.jpg" media="(max-width:700px)">
+          <source srcset="IMG/medium/yiman-chen-castlerock-wisconsin.jpg" media="(max-width:1500px)">
+          <source srcset="IMG/large/yiman-chen-castlerock-wisconsin.jpg">
+           
+           <img alt="yiman-chen-castlerock-wisconsin"
+           title="picture of wisconsin castlerock"
+           src="IMG/medium/yiman-chen-castlerock-wisconsin.jpg">
+    </picture>
+			</li>
+			
+			<li>
+    <picture>
+          <source srcset="IMG/small/yiman-chen-gibraltar-rock-wisconsin.jpg" media="(max-width:700px)">
+          <source srcset="IMG/medium/yiman-chen-gibraltar-rock-wisconsin.jpg" media="(max-width:1500px)">
+          <source srcset="IMG/large/yiman-chen-gibraltar-rock-wisconsin.jpg">
+           
+           <img alt="yiman-chen-gibraltar-rock-wisconsin"
+           title="picture of wisconsin gibraltar"
+           src="IMG/medium/yiman-chen-gibraltar-rock-wisconsin.jpg">
+    </picture>
+			</li>
+		</ul>
+	</div>
+
+
+
      
     <footer>
 
