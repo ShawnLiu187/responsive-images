@@ -16,10 +16,21 @@ body{
 	line-height: 1.5;
 }
 
+.wrapper{
+    overflow:overlay;
+}
+
 footer{
+/*
     position:absolute;
     bottom: 0px;
     right: 1em;
+*/
+
+    
+text-align: right;
+margin-right: 1rem;
+
 }
 
 ul{
